@@ -42,9 +42,13 @@ Columns: user_id, stock_id, quantity.
 Summary of Relationships:
 
 Users → Orders: One user can place multiple orders (one-to-many).
+
 Stocks → Orders: A stock can have multiple orders placed for it (one-to-many).
+
 Orders → Transactions: One order can result in one or more transactions (one-to-many).
+
 Users → Portfolio: A user can have a portfolio containing multiple stocks (one-to-many).
+
 Stocks → Portfolio: A stock can be held by multiple users (one-to-many).
 
 Technologies Used:
