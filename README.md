@@ -7,6 +7,9 @@ The AngelOne Stock Trading Platform Database is designed to support the operatio
 
 ER DIAGRAM:
 
+<img width="416" alt="image" src="https://github.com/user-attachments/assets/6c80ef9a-8683-4bcb-8a7a-314010335cc9" />
+
+
 
 
 
