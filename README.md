@@ -50,6 +50,12 @@ Stocks → Portfolio: A stock can be held by multiple users (one-to-many).
 Technologies Used:
 
 MySQL: The relational database management system used for storing and querying data.
+
 SQL Queries: For retrieving stock prices, transaction history, and portfolio details.
+
 Foreign Keys: Used to maintain data integrity across users, stocks, transactions, and portfolios.
+
 Stored Procedures: Used for complex queries such as calculating portfolio values, fetching transaction history, and retrieving the most traded stocks.
+
+
+Thank you 🤝
