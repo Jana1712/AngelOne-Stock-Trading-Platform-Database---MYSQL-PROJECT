@@ -17,7 +17,7 @@ ER DIAGRAM:
 
 
 
-Database Structure Overview:
+**Database Structure Overview:**
 
 1. Users Table (Accounts)
 Stores user details such as personal information, email, and available balance for trading.
@@ -33,13 +33,15 @@ Columns: order_id, user_id, order_type, quantity, price, order-status, created_a
 
 4. Transactions Table
 Records completed transactions (buy/sell) for stocks, linking users and stocks with transaction details.
-Columns: transaction_id, order_id, user_id, stock_id, quantity, price, transaction_type, transaction_time.
+Columns: transaction_id, order_id, user_id, stock_id, quantity, price, transaction_type,
+transaction_time.
 
 5. Portfolio Table
 Manages users' stock holdings, tracking the quantity of stocks each user owns.
 Columns: user_id, stock_id, quantity.
 
-Summary of Relationships:
+
+**Summary of Relationships:**
 
 Users → Orders: One user can place multiple orders (one-to-many).
 
